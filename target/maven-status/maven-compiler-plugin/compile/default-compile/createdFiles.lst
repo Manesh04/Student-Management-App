@@ -1,0 +1,8 @@
+com\example\user\UserService.class
+com\example\MyWebAppApplication.class
+com\example\user\Controller\RestUserController.class
+com\example\user\UserRepository.class
+com\example\user\UserController.class
+com\example\user\UserNotFoundException.class
+com\example\MainController.class
+com\example\user\User.class

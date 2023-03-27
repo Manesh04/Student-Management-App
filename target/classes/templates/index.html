@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to My Application</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body{
+            background-image: url("/images/College.jpeg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body> <!--style="background-color: aqua"-->
+<div class="container-fluid text-center my-5">
+    <b><h1 class="w3-panel w3-pink w3-opacity">Welcome To User Management Application</h1></b>  <!--style="..."-->
+    <p>In earlier computing models like client-server, the processing load for the application was shared between code on the server and code installed on each client locally. In other words, an application had its own pre-compiled client program which served as its user interface and had to be separately installed on each user's personal computer. An upgrade to the server-side code of the application would typically also require an upgrade to the client-side code installed on each user workstation, adding to the support cost and decreasing productivity. In addition, both the client and server components of the application were usually tightly bound to a particular computer architecture and operating system and porting them to others was often prohibitively expensive for all but the largest applications (Nowadays, native apps for mobile devices are also hobbled by some or all of the foregoing issues).</p>
+<!--    <a class="h2" th:href="@{/users}">Manage Users</a>-->
+    <a class="button btn btn-outline-dark" th:href="@{/users}">Manage Users</a>
+</div>
+</body>
+</html>
