@@ -60,17 +60,6 @@ public class User {
         this.lastName = lastName;
     }
 
-//    @Override
-//    public String toString() {
-//        return "User{" +
-//                "id=" + id +
-//                ", email='" + email + '\'' +
-//                ", password='" + password + '\'' +
-//                ", firstName='" + firstName + '\'' +
-//                ", lastName='" + lastName + '\'' +
-//                '}';
-//    }
-
 
     @Override
     public String toString() {
